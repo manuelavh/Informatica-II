@@ -5,7 +5,8 @@ project(Practica-1 LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-add_executable(Practica-1 ejercicio5.cpp)
+add_executable(Practica-1 ejercicio5_sinround.cpp
+    ejercicio5_sinround.cpp)
 
 include(GNUInstallDirs)
 install(TARGETS Practica-1

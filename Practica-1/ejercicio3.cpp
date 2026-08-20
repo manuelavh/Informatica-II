@@ -1,10 +1,9 @@
-#include <iostream> //Encabezado
-
+#include <iostream> //Caja de herramientas de entrada y salida
 
 /*Escriba un programa que pida dos números A y B
   e imprima en pantalla el mayor.*/
 
-using namespace std;
+using namespace std; // espacio de nombres
 
 int main() //Función principal del programa
 {
@@ -12,7 +11,7 @@ int main() //Función principal del programa
     cout << "Ingrese un numero: ";
     cin >> A;
 
-    cout <<"Ingrese otro numero: ";
+    cout << "Ingrese otro numero: ";
     cin >> B;
 
     if (A > B) {
