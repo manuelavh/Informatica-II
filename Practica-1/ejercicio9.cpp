@@ -20,5 +20,7 @@ int main()
     return 0;
 
 
-// Tambien podria definir una variable que se llame pi = 3.1416
+/* Tambien podria definir una variable constante que se llame
+   pi = 3.1416
+   const float pi = 3.1416; */
 }
