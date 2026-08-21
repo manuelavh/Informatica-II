@@ -1,7 +1,7 @@
 #include <iostream>
 
 /*Escriba un programa que pida un numero N e imprima
-  todas las potencias desde N^1 hasta N^5.*/
+  todos los divisores de N.*/
 
 using namespace std;
 
@@ -11,12 +11,14 @@ int main()
     cout << "Ingrese un numero: ";
     cin >> N;
 
-    int potencia = 1;
+    cout << "los divisores de " << N << " son: " << endl;
 
-    for (int i = 1; i <= 5; ++i) {
+    for (int i = 1; i <= N; ++i) {
+        char comprobacion = N % i;
 
-        potencia = potencia * N;
-        cout << N << "^" << i << " = " << potencia << endl;
+        if (comprobacion == 0) {
+            cout << i << endl;
+        }
     }
 
     return 0;
